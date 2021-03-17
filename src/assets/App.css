@@ -1,0 +1,12 @@
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* background-color: aqua; */
+    min-height: 50vh;
+}
+
+.Header Button {
+    margin-top: 40px;
+}
