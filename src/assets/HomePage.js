@@ -14,7 +14,7 @@ function HomePage() {
     let UploadLink = () => {
         formData.append("product_original_link", AmazonLink);
         console.log(AmazonLink);
-        fetch('http://127.0.0.1:8000/api/add-product', {
+        fetch('https://dockertestjap.herokuapp.com/api/add-product', {
             method: 'POST',
             body: formData
         }).then((response) => changeCard(response));        
@@ -31,6 +31,10 @@ function HomePage() {
             setCardValue('We already knew about this product. Learn more about the product')
         } else if (res['status'] === 400) {
             setCardValue('There was an issue with the link you submitted')
+        }else if (res['status'] === 406) {
+            setCardValue('The link you submitted is not an amazon link. Please check the link again.')
+        }else if (res['status'] === 500) {
+            setCardValue('There was an error in the server. Please report it to the developer.')
         }
 
     }
