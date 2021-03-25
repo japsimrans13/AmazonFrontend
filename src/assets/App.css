@@ -10,3 +10,12 @@
 .Header Button {
     margin-top: 40px;
 }
+
+.Header .BlueButton {
+    color: #34d0f7;
+}
+
+.Header .BlueButton:hover {
+    color: aliceblue;
+    background-color: #34d0f7;
+}

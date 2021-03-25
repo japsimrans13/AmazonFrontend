@@ -45,10 +45,8 @@ function HomePage() {
                 Enter Amazon Link Here
             </h1>
             <TextField id="outlined-basic" label="Amazon Product Link" variant="outlined" onChange={(e) => { SetAmazonLink(e.target.value) }} />
-            <Button onClick={UploadLink} variant="contained" color="primary">Submit</Button>
+            <Button className='BlueButton' onClick={UploadLink} variant="contained" >Submit</Button>
             <Card text={CardValue} />
-
-
         </div>
     )
 }
