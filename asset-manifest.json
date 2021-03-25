@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/AmazonFrontend/static/css/main.4a5d6e0f.chunk.css",
-    "main.js": "/AmazonFrontend/static/js/main.2cc3a407.chunk.js",
-    "main.js.map": "/AmazonFrontend/static/js/main.2cc3a407.chunk.js.map",
+    "main.css": "/AmazonFrontend/static/css/main.591b6cbb.chunk.css",
+    "main.js": "/AmazonFrontend/static/js/main.dce24c59.chunk.js",
+    "main.js.map": "/AmazonFrontend/static/js/main.dce24c59.chunk.js.map",
     "runtime-main.js": "/AmazonFrontend/static/js/runtime-main.198c031f.js",
     "runtime-main.js.map": "/AmazonFrontend/static/js/runtime-main.198c031f.js.map",
-    "static/js/2.5f4476ec.chunk.js": "/AmazonFrontend/static/js/2.5f4476ec.chunk.js",
-    "static/js/2.5f4476ec.chunk.js.map": "/AmazonFrontend/static/js/2.5f4476ec.chunk.js.map",
+    "static/js/2.cabbae1c.chunk.js": "/AmazonFrontend/static/js/2.cabbae1c.chunk.js",
+    "static/js/2.cabbae1c.chunk.js.map": "/AmazonFrontend/static/js/2.cabbae1c.chunk.js.map",
     "static/js/3.75850476.chunk.js": "/AmazonFrontend/static/js/3.75850476.chunk.js",
     "static/js/3.75850476.chunk.js.map": "/AmazonFrontend/static/js/3.75850476.chunk.js.map",
     "index.html": "/AmazonFrontend/index.html",
-    "static/css/main.4a5d6e0f.chunk.css.map": "/AmazonFrontend/static/css/main.4a5d6e0f.chunk.css.map",
-    "static/js/2.5f4476ec.chunk.js.LICENSE.txt": "/AmazonFrontend/static/js/2.5f4476ec.chunk.js.LICENSE.txt"
+    "static/css/main.591b6cbb.chunk.css.map": "/AmazonFrontend/static/css/main.591b6cbb.chunk.css.map",
+    "static/js/2.cabbae1c.chunk.js.LICENSE.txt": "/AmazonFrontend/static/js/2.cabbae1c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.198c031f.js",
-    "static/js/2.5f4476ec.chunk.js",
-    "static/css/main.4a5d6e0f.chunk.css",
-    "static/js/main.2cc3a407.chunk.js"
+    "static/js/2.cabbae1c.chunk.js",
+    "static/css/main.591b6cbb.chunk.css",
+    "static/js/main.dce24c59.chunk.js"
   ]
 }
