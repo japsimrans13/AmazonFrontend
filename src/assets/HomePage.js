@@ -17,11 +17,11 @@ function HomePage() {
         fetch('https://dockertestjap.herokuapp.com/api/add-product', {
             method: 'POST',
             body: formData
-        }).then((response) => changeCard(response));        
+        }).then((response) => changeCard(response));
 
     }
 
-    let changeCard = (res) =>{
+    let changeCard = (res) => {
         console.log('this change card function is running.')
         console.log(res);
         // now update the card
@@ -31,12 +31,11 @@ function HomePage() {
             setCardValue('We already knew about this product. Learn more about the product')
         } else if (res['status'] === 400) {
             setCardValue('There was an issue with the link you submitted')
-        }else if (res['status'] === 406) {
+        } else if (res['status'] === 406) {
             setCardValue('The link you submitted is not an amazon link. Please check the link again.')
-        }else if (res['status'] === 500) {
+        } else if (res['status'] === 500) {
             setCardValue('There was an error in the server. Please report it to the developer.')
         }
-
     }
 
 
@@ -45,7 +44,7 @@ function HomePage() {
             <h1>
                 Enter Amazon Link Here
             </h1>
-            <TextField id="outlined-basic" label="Amazon Product Link" variant="outlined" onChange={(e) => { SetAmazonLink(e.target.value)}} />
+            <TextField id="outlined-basic" label="Amazon Product Link" variant="outlined" onChange={(e) => { SetAmazonLink(e.target.value) }} />
             <Button onClick={UploadLink} variant="contained" color="primary">Submit</Button>
             <Card text={CardValue} />
 
